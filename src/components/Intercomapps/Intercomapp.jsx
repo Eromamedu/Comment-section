@@ -13,6 +13,9 @@ const sample = {
       user: { username: 'amyrobson' },
       replies: [],
     },
+    // id.2git add .
+git commit -m "resolve merge conflict"
+
     {
       id: 2,
       content:
