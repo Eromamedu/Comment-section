@@ -28,7 +28,7 @@ const sample = {
           createdAt: Date.now() - 1000 * 60 * 60 * 24 * 7,
           score: 4,
           replyingTo: 'maxblagun',
-          user: { username: 'ramsesmiron' },
+          user: { username: 'ramsesmiron'} ,
         },
         {
           id: 4,
