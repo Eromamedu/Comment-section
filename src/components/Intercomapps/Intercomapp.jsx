@@ -8,7 +8,7 @@ const sample = {
       id: 1,
       content:
         "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible.",
-      createdAt: Date.now() - 1000 * 60 * 60 * 24 * 30,
+      createdAt: Date.now() - 1000 * 60 * 60 *j 24 * 30,
       score: 12,
       user: { username: 'amyrobson' },
       replies: [],
@@ -57,7 +57,7 @@ function timeAgo(ts) {
   const d = Math.floor(h / 24);
   return `${d}d`;
 }
-
+// export
 export default function CommentSection() {
   const [data, setData] = useState(() => {
     try {
@@ -162,6 +162,7 @@ export default function CommentSection() {
                 <div className="time">{timeAgo(c.createdAt)}</div>
                 <button className="reply" onClick={() => { const t = prompt('Reply:'); if (t) addReply(c.id, c.user.username, t); }}>Reply</button>
               </div>
+              {/* CARD */}
               <div className="text">{c.content}</div>
 
               {c.replies.length > 0 && (
