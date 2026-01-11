@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 const STORAGE_KEY = 'fm-comments-v1';
-
+// SAMPLE
 const sample = {
   currentUser: { username: 'juliusomo', image: null },
   comments: [
