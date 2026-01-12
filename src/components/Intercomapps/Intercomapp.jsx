@@ -46,7 +46,7 @@ git commit -m "resolve merge conflict"
     },
   ],
 };
-
+// final stage
 function timeAgo(ts) {
   const s = Math.floor((Date.now() - ts) / 1000);
   if (s < 60) return `${s}s`;
