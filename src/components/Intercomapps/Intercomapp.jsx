@@ -78,7 +78,7 @@ export default function CommentSection() {
     ].reduce((a, b) => Math.max(a, b), 0);
     return max + 1;
   };
-
+// addComment
   function addComment() {
     const val = text.trim();
     if (!val) return;
