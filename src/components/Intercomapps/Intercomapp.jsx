@@ -14,8 +14,8 @@ const sample = {
       replies: [],
     },
     // id.2git add .
-git commit -m "resolve merge conflict"
-
+// git commit -m "resolve merge conflict"
+// iddd
     {
       id: 2,
       content:
