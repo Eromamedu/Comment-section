@@ -17,7 +17,7 @@ import "./App.css";
 // import Ordered from "./components/Ordered/Ordered.jsx";
   // const [cartCount, setCartCount] = useState(0);
   // function addToCart() {
-  //   setCartCount(cartCount + 1);
+  //   setCartCount(cartCount + 1);  
   // }
   // const [cartItems, setCartItems] = useState([]);
   // const [product, setProduct] = useState([]);

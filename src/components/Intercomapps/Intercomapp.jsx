@@ -32,7 +32,7 @@ const sample = {
           score: 4,
           replyingTo: 'maxblagun',
           user: { username: 'ramsesmiron'} ,
-        },
+        }, 
         {
           id: 4,
           content:
@@ -93,7 +93,7 @@ export default function CommentSection() {
     setData((d) => ({ ...d, comments: [...d.comments, newComment] }));
     setText('');
   }
-
+// release
   function updateComment(id, newContent, isReply = false, parentId = null) {
     setData((d) => {
       const comments = d.comments.map((c) => {
