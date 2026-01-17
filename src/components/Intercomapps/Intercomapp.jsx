@@ -8,7 +8,7 @@ const sample = {
       id: 1,
       content:
         "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible.",
-      createdAt: Date.now() - 1000 * 60 * 60 *j 24 * 30,
+      createdAt: Date.now() - 1000 * 60 * 60 * 24 * 30,
       score: 12,
       user: { username: 'amyrobson' },
       replies: [],
@@ -93,7 +93,8 @@ export default function CommentSection() {
     setData((d) => ({ ...d, comments: [...d.comments, newComment] }));
     setText('');
   }
-// release
+// release 
+
   function updateComment(id, newContent, isReply = false, parentId = null) {
     setData((d) => {
       const comments = d.comments.map((c) => {
