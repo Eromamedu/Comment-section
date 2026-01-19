@@ -18,7 +18,8 @@ const sample = {
 // iddd
     {
       id: 2,
-      content:
+      // content
+         content:
         "Woah, your project looks awesome! How long have you been coding for?",
       createdAt: Date.now() - 1000 * 60 * 60 * 24 * 14,
       score: 5,
@@ -106,7 +107,7 @@ export default function CommentSection() {
             replies: c.replies.map((r) => (r.id === id ? { ...r, content: newContent } : r)),
           };
         }
-        return c;
+        return ;
       });
       return { ...d, comments };
     });
