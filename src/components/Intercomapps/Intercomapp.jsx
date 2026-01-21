@@ -22,7 +22,6 @@ const sample = {
          content:
         "Woah, your project looks awesome! How long have you been coding for?",
       createdAt: Date.now() - 1000 * 60 * 60 * 24 * 14,
-      scor
       score: 5,
       user: { username: 'maxblagun' },
       replies: [
@@ -125,6 +124,7 @@ export default function CommentSection() {
   }
 
   function addReply(parentId, replyingTo, replyText) {
+    // const
     const r = {
       id: nextId(),
       content: replyText,
