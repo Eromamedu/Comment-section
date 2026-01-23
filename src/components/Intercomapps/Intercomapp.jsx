@@ -122,7 +122,7 @@ export default function CommentSection() {
       };
     });
   }
-
+// function
   function addReply(parentId, replyingTo, replyText) {
     // const
     const r = {
